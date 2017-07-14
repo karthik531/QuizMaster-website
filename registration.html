@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Registration</title>
+		<script src="regjs.js"></script>
+		<link rel="stylesheet" type="text/css" href="regStyle.css">
+	</head>
+	<body background="LoginBg3.jpg">
+		<h1 align="center" style="font-family:cursive;font-size:300%;color:white">Quiz Registration</h1>
+		<div class="MAIN">
+		<form method="post" onsubmit="return validate()" action="Registration.com">
+			<table align="center">
+				<tr><th><h2>Create Account:</h2></th></tr>
+				<tr><td><br></td></tr>
+				<tr><td>Your name:</td></tr>
+				<tr><td><input type="text" name="USERNAME" id="USERNAME" size="37" class="textbox"></td></tr>
+				<tr><td><br></td></tr>
+				<tr><td>Mobile number:</td></tr>
+				<tr>
+					<td>
+						<select name="CODE" id="CODE" class="textbox">
+							<option>--select--</option>
+							<option>+91</option>
+							<option>+1</option>
+							<option>+352</option>
+							<option>+22</option>
+							<option>+561</option>
+							<option>+333</option>
+						</select>
+						<input type="text" name="MOBILE" id="MOBILE" class="textbox" size="23">
+					</td>
+				</tr>
+				<tr><td><br></td></tr>
+
+				<tr><td>Email:</td></tr>
+				<tr><td><input type="text" name="EMAIL" id="EMAIL" size="37" class="textbox"></td></tr>
+				<tr><td><br></td></tr>
+
+				<tr><td>Password:</td></tr>
+				<tr><td><input type="password" name="PASSWORD" id="PASSWORD" placeholder="at least 6 characters" size="37" class="textbox"></td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><div id="error"></div></td></tr>
+				<tr><td><br></td></tr>
+
+				<tr><td><input type="submit" value="Continue" class="button"></td></tr>
+			</table>
+		</form>
+	</div>
+		
+	</body>
+</html>

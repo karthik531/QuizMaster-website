@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>Login</title>
+		<script src="loginScript.js"></script>
+		<link rel="stylesheet" type="text/css" href="loginStyle.css">
+	</head>
+	<body background="LoginBg1.jpg">
+		<h1 align="center" style="font-family:cursive;color:white;font-size:300%" >Quiz Login</h1>
+		<div class="login">
+		<form method="post" onsubmit="return validate()" action="Login.com">
+			<table align="center">
+				<tr><th><h2>Sign in:</h2></th></tr>
+				<tr><td><br></td></tr>
+				<tr><td>Name:</td></tr>
+				<tr><td><input type="text" id="NAME" name="NAME" placeholder="name or mobile number" size="31" class="textbox"></td></tr>
+				<tr><td><br></td></tr>
+				<tr><td>Password:</td></tr>
+				<tr><td><input type="password" id="PASSWORD" name="PASSWORD" size="31" class="textbox"></td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><div id="ERR"></div></td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="submit" value="login" class="button"></td></tr>
+			</table>
+		</form>
+		</div>
+	</body>
+</html>

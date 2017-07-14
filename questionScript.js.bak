@@ -1,0 +1,7 @@
+function validate()
+{
+	var question=document.getElementById("question");
+	var ans=document.getElementById("Q1");
+	var count=document.getElementById("count");
+	if(ans.value == "James Gosling")
+}

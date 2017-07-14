@@ -1,0 +1,24 @@
+.Q
+{
+	height:400px;
+	width:520px;
+	font-family:calibri;
+	background-color:#465b74;
+	border-radius:10px;
+	border: 5px solid #292929;
+	margin:50px auto;
+}
+.S
+			{
+				background-color:#40a4df; 
+				border: none;
+				color: white;
+				padding: 9px 45px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+                margin:30px;
+				
+			}			
+			

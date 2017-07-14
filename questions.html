@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Quiz</title>
+        <script src="questionScript.js"></script>
+		<link rel="stylesheet" type="text/css" href="questionStyle.css">
+	</head>
+	<body background="LoginBg1.jpg" style="font-family:cursive;color:white;">
+		<h1 align="center" style="font-family:cursive;color:white;font-size:300%" >Quiz</h1>
+		<form method=post onsubmit="return validate()">
+			<div class="Q" id="question" >
+				<table align="left">
+				<tr><th><h2>Q.Who is the father of JAVA?</h2></th></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="radio" value="James Adarsh" id="ANS" name="ANS">Ryan Gosling</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="radio" value="Muthyala Gosling" id="ANS" name="ANS">Dennis Ritchie</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="radio" value="James Gosling" id="ANS" name="ANS">James Gosling</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="radio" value="All of the above" id="ANS" name="ANS">All of the above</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="submit" value="Next" class="S"></td></tr>
+				<tr><td><br></td></tr>
+			</table>
+			</div>
+		</form>
+        <input type="hidden" value="0" id="count">
+        <input type="hidden" value="1" id="qcount">
+	</body>
+</html>

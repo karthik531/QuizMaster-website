@@ -1,0 +1,47 @@
+question 1:
+<table align="left">
+				<tr><th><h2>Who is the father of JAVA?</h2></th></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="radio" value="James Adarsh" id="ANS" name="ANS">James Adarsh</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="radio" value="Muthyala Gosling" id="ANS" name="ANS">Muthyala Gosling</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="radio" value="James Gosling" id="ANS" name="ANS">James Gosling</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="radio" value="All of the above" id="ANS" name="ANS">All of the above</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="submit" value="Submit" class="S"></td></tr>
+				<tr><td><br></td></tr>
+			</table>
+
+question 2:
+<table align="left">
+				<tr><th><h2>Who is the father of "Avatar Inc"?</h2></th></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="radio" value="Adavatar" id="ANS" name="ANS">Adavatar</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="radio" value="Whatsavatar" id="ANS" name="ANS">Whatsavatar</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="radio" value="lilGthequeenbee" id="ANS" name="ANS">lilGthequeenbee</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="radio" value="None of the above" id="ANS" name="ANS">None of the above</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="submit" value="Submit" class="S"></td></tr>
+				<tr><td><br></td></tr>
+			</table>
+
+question 3:
+<table align="left">
+				<tr><th><h2>Who conducted HBC-2?</h2></th></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="radio" value="DS Sheep" id="ANS" name="ANS">DS Sheep</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="radio" value="DS Wolves" id="ANS" name="ANS">DS Wolves</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="radio" value="None of the above" id="ANS" name="ANS">None of the above</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="radio" value="All of the above" id="ANS" name="ANS">All of the above</td></tr>
+				<tr><td><br></td></tr>
+				<tr><td><input type="submit" value="Submit" class="S"></td></tr>
+				<tr><td><br></td></tr>
+			</table>
